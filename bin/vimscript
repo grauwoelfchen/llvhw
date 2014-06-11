@@ -1,0 +1,9 @@
+#!/usr/bin/vim -nNesc:let&verbose=1|let&viminfo=""|source%|echo""|qall!
+
+" vim:ft=vim:
+
+function! s:say(text)
+  echo a:text
+endfunction
+
+call s:say("Learn Learn Vimscript the Hard Way")
