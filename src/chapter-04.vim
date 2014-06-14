@@ -34,13 +34,13 @@ imap <c-u> <esc>viwU`]a
 " doesn't work, after U <c-o> brings to back insert mode
 "imap <c-u> <c-o>viwU`]ia
 
-" help `
-" help ]
+"help `
+"help ]
 "imap <c-u> <esc>gUiw`]a
 
 nmap <c-u> viwU
 
 " it brings cursor to first char
 " U at visual mode
-" help v_U
+"help v_U
 
