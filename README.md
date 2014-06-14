@@ -3,7 +3,16 @@
 Learn [Learn Vimscript the Hard Way](http://learnvimscriptthehardway.stevelosh.com/)
 
 
+## plugins
+
+* neobundle
+* vimproc
+* vim-quickrun
+
+```
+$ vim -u .vimrc src/chapter-NN.vim
+```
+
 ## link
 
-* https://github.com/thinca/vim-quickrun
 * http://learnvimscriptthehardway.stevelosh.com/
