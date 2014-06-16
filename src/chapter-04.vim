@@ -28,14 +28,19 @@ imap <c-d> <esc>ddi
 " 4.3
 " problem at first char of word
 imap <c-u> <esc>viwUi
-
-" better ?
 imap <c-u> <esc>viwU`]a
 " doesn't work, after U <c-o> brings to back insert mode
 "imap <c-u> <c-o>viwU`]ia
+" <esc> moves cursor to out of words from first char of word
+" cursol is placed by `] last inserted character in this case
+" sometimes cursor blinks
+imap <c-u> <c-o>viwU<esc>`]a
+" i<c-u><c-o>a<c-u><c-o>a<c-u>...
+imap <c-u> <c-o>viwU<c-o>`]<c-o>a
 
 "help `
 "help ]
+"help `]
 "imap <c-u> <esc>gUiw`]a
 
 nmap <c-u> viwU
