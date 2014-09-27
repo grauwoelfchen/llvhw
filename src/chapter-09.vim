@@ -28,5 +28,14 @@ noremap <leader>" viw<esc>a"<esc>hbi"<esc>lel
 noremap <leader>' viw<esc>a'<esc>hbi'<esc>lel
 
 " vnoremap
-" TODO :'(
-vnoremap ' <esc>`<i'<esc>`>la'<esc>
+vnoremap ' <esc>`>a'<esc>`<i'<esc>`>2l
+
+noremap H ^
+noremap L $
+
+" :help H
+" default H: to line from top of window (first line on the window)
+" :help startofline
+
+" :help L
+" default L: to line from bottom of window (last line on the window)
