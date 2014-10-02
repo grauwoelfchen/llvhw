@@ -20,6 +20,12 @@ syntax enable
 noremap ; :
 noremap : ;
 
+noremap j gj
+noremap k gk
+inoremap hl <Esc>
+inoremap jk <Esc>
+inoremap <Esc> <Nop>
+
 filetype off
 "" neobundle
 if &runtimepath !~ '/neobundle.vim'
