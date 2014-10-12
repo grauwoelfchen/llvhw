@@ -20,6 +20,8 @@ syntax enable
 let g:mapleader = ","
 let g:maplocalleader = "\\"
 
+set wildignore+=.git/*
+
 noremap ; :
 noremap : ;
 
