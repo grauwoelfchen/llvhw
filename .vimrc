@@ -17,6 +17,9 @@ set splitright
 set autoindent
 syntax enable
 
+let g:mapleader = ","
+let g:maplocalleader = "\\"
+
 noremap ; :
 noremap : ;
 
