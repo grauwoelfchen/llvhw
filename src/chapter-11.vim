@@ -7,6 +7,7 @@ nnoremap <leader>d dd
 nnoremap <buffer> <leader>x dd
 
 " <buffer> is bad form, use <localeader>
+noremap <localleader>x dd
 
 setlocal wrap
 setlocal nowrap
