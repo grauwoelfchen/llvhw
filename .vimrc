@@ -36,12 +36,14 @@ filetype off
 if &runtimepath !~ '/neobundle.vim'
   set runtimepath+=$HOME/.vim/bundle/neobundle.vim
 endif
-call neobundle#rc(expand($HOME.'/.vim/bundle/'))
+call neobundle#begin(expand($HOME.'/.vim/bundle/'))
 
 NeoBundle 'thinca/vim-quickrun', {
 \  'depends': [ 'Shougo/vimproc' ]
 \}
+call neobundle#end()
 filetype plugin indent on
+NeoBundleCheck
 
 "" quickrun
 let g:quickrun_config = {}
